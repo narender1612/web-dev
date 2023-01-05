@@ -1,11 +1,10 @@
 import Part from './Part'
 const Content = (props) => {
-    console.log('the props of Content: ' + props);
     return (
         <div>
-            <Part data={props.data[0]} />
-            <Part data={props.data[1]} />
-            <Part data={props.data[2]} />
+            <Part data={props.data.parts[0]} />
+            <Part data={props.data.parts[1]} />
+            <Part data={props.data.parts[2]} />
         </div>
     )
 }
