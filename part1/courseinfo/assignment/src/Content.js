@@ -14,6 +14,7 @@ export default Content;
 
 /*
 
+
 props will receive something like this from App
 props = { data = {commonProps = {part1{}, part2{}, part3{} } } }
 
